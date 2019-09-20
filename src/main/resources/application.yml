@@ -1,0 +1,50 @@
+
+list:
+  - a
+  - b
+  - c
+  
+map:
+  k1: v1
+  k2: v2
+  k3: v3
+
+
+list-list:
+  - - a
+    - b
+  - - c
+    - d
+  - - e
+    - f
+    
+list-map:
+  - k1: v1
+    k2: v2
+  - k3: v3
+    k4: v4
+  - k5: v5
+    k6: v6
+
+
+map-map:
+  k1:
+    k11: v11
+    k12: v12
+  k2:
+    k21: v21
+    k22: v22
+  k3:
+    k31: v31
+    k32: v32
+    
+map-list:
+  k1:
+    - a
+    - b
+  k2:
+    - c
+    - d
+  k3:
+    - e
+    - f
