@@ -48,3 +48,31 @@ map-list:
   k3:
     - e
     - f
+
+swimming:
+  scores:
+    - level: 一等奖
+      low-bound: 90
+      high-bound: 100
+    - level: 二等奖
+      low-bound: 80
+      high-bound: 90
+    - level: 三等奖
+      low-bound: 70
+      high-bound: 80
+  awards:
+    level1:
+      - name: 手机
+        count: 1
+      - name: 电脑
+        count: 1
+    level2:
+      - name: 篮球
+        count: 2
+      - name: 足球
+        count: 2
+    level3:
+      - name: 书包
+        count: 3
+      - name: 玩具
+        count: 3
