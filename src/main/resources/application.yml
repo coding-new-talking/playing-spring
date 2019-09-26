@@ -76,3 +76,7 @@ swimming:
         count: 3
       - name: 玩具
         count: 3
+
+studying:
+  computer: 1024
+
