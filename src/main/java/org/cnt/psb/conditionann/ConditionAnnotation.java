@@ -70,4 +70,24 @@ public class ConditionAnnotation {
 			log.info("OnResource => 被注册");
 		}
 	}
+	
+	@Windows
+	@Component
+	public static class OnWindows {
+		private Logger log = LoggerFactory.getLogger(this.getClass());
+		@PostConstruct
+		public void init() {
+			log.info("OnWindows => 被注册");
+		}
+	}
+	
+	@Linux
+	@Component
+	public static class OnLinux {
+		private Logger log = LoggerFactory.getLogger(this.getClass());
+		@PostConstruct
+		public void init() {
+			log.info("OnLinux => 被注册");
+		}
+	}
 }
