@@ -3,6 +3,7 @@ spring:
   main:
     web-application-type: none
 
+
 list:
   - a
   - b
@@ -84,3 +85,6 @@ swimming:
 studying:
   computer: 1024
 
+logging:
+  level: 
+    org.springframework.boot.autoconfigure: debug

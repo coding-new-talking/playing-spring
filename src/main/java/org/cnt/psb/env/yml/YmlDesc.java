@@ -53,17 +53,17 @@ public class YmlDesc {
 		mps.forEach(ps -> {
 			log.info("============================================================");
 			log.info("{}", ps);
-			if (ps instanceof EnumerablePropertySource<?>) {
+			/*if (ps instanceof EnumerablePropertySource<?>) {
 				String[] propertyNames = ((EnumerablePropertySource<?>)ps).getPropertyNames();
 				Stream.of(propertyNames).forEach(pn -> log.info("{}={}", pn, ps.getProperty(pn)));
 			}
 			if (ps.getClass().getSimpleName().equals("ConfigurationPropertySourcesPropertySource")) {
 				Iterable<ConfigurationPropertySource> cps = (Iterable<ConfigurationPropertySource>)ps.getSource();
 				cps.forEach(cp -> log.info("{} {}", cp, cp.getClass().getSimpleName()));
-			}
+			}*/
 		});
 		
-		outputEnv();
-		outputField();
+		/*outputEnv();
+		outputField();*/
 	}
 }
