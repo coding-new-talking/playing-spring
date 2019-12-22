@@ -15,7 +15,7 @@ import org.springframework.util.concurrent.ListenableFuture;
  * @author lixinjie
  * @since 2019-11-07
  */
-@Component
+//@Component
 public class TaskRunner implements ApplicationRunner {
 
 	@Autowired

@@ -1,9 +1,12 @@
-
+server:
+  servlet:
+    context-path: /playing-spring
 spring:
   main:
-    web-application-type: none
-
-
+    web-application-type: servlet
+  mvc:
+    servlet:
+      load-on-startup: 0
 list:
   - a
   - b
@@ -88,3 +91,4 @@ studying:
 logging:
   level: 
     org.springframework.boot.autoconfigure: debug
+    org.springframework.web.servlet: debug 

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * @author lixinjie
  * @since 2019-10-28
  */
-@Component
+//@Component
 public class AppRunner implements ApplicationRunner {
 
 	@Override
